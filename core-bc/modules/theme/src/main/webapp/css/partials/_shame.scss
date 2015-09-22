@@ -1,0 +1,95 @@
+@import 'partials/utilities/mixins';
+
+// We all know that, no matter how hard we may try, sometimes we do need to
+// use quick fixes, hacks and questionable techniques in our code.
+// It happens, whether we like to admit it or not. Whilst this isn’t ideal,
+// we have to do it from time to time; all of us.
+//
+// The real problem, though, is that we rarely go back and tidy these
+// things up. They slip through the cracks, get ignored, go unnoticed,
+// and stay for good. This we do not have to do.
+//
+// What is needed is a way of allowing these hacks when necessary,
+// but making sure that they don’t go unnoticed and unresolved.
+// Enter shame.css.
+//
+// Read More:
+// http://csswizardry.com/2013/04/shame-css/
+// --------
+
+
+// Hides the portlet titles
+// --------
+
+.aui {
+	.portlet-title {
+		display: none;
+	}
+
+	.portlet-topper {
+		.portlet-topper-toolbar {
+			display: none;
+		}
+	}
+
+}
+
+.aui {
+	.no-portlet-content {
+		margin-bottom: 0;
+
+		.portlet {
+			padding: 0;
+		}
+	}
+}
+
+
+.page-edit {
+
+	&.controls-visible {
+
+		.portlet-title {
+			display: block;
+		}
+
+		.portlet-topper {
+			.portlet-topper-toolbar {
+				display: block;
+			}
+		}
+
+	}
+
+	&.controls-hidden {
+
+		.portlet-title {
+			display: none;
+		}
+
+		.portlet-topper {
+			.portlet-topper-toolbar {
+				display: none;
+			}
+		}
+
+	}
+
+}
+
+.aui {
+	// Show border class can be set on portlet ("Grafiskt utseende -> Avancerade stilalternativ" to force borders to be shown.)
+	.show-borders {
+		.portlet-title {
+			display: block;
+		}
+	}
+
+	.page-edit {
+		&.controls-visible,
+		&.controls-hidden {
+			display: block;
+		}
+	}
+
+}
