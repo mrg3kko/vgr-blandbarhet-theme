@@ -1,18 +1,3 @@
-@import url(custom_common.css);
-@import url(custom_base.css);
-@import url(custom_navigation.css);
-@import url(custom_modules.css);
-@import url(custom_liferay_components.css);
-@import url(custom_liferay_portlets.css);
-@import url(custom_portlet.css);
-@import url(custom_articles.css);
-@import url(custom_sandbox.css);
-@import url(custom_layout.css);
-@import url(custom_responsive.css);
-
-
-// Fonts
-
 // Vendor
 // --------
 
@@ -24,30 +9,11 @@
 @import "aui/alloy-font-awesome/scss/variables";
 @import "compass/css3/user-interface";
 
-
 @import 'partials/utilities/variables';
-
-// Old files
-@import 'partials/old/custom_common.scss';
-@import 'partials/old/custom_base.scss';
-@import 'partials/old/custom_navigation.scss';
-@import 'partials/old/custom_modules.scss';
-@import 'partials/old/custom_liferay_components.scss';
-@import 'partials/old/custom_liferay_portlets.scss';
-@import 'partials/old/custom_portlet.scss';
-@import 'partials/old/custom_articles.scss';
-@import 'partials/old/custom_sandbox.scss';
-@import 'partials/old/custom_layout.scss';
-@import 'partials/old/custom_responsive.scss';
-
-
-// New files
 
 @include establish-baseline; //Uses variables $base-font-size & $base-line-height
 
 body {
-	font-weight: $base-font-weight;
-	-webkit-font-smoothing: antialiased;
 }
 
 .aui {
@@ -59,6 +25,9 @@ body {
 		@import 'partials/atoms/alerts';
     @import 'partials/atoms/body';
 		@import 'partials/atoms/buttons';
+		@import 'partials/atoms/html';
+		@import 'partials/atoms/iframe';
+		@import 'partials/atoms/modal';
     @import 'partials/atoms/paragraphs';
     @import 'partials/atoms/headings';
     @import 'partials/atoms/images';
@@ -66,18 +35,36 @@ body {
 		@import 'partials/atoms/labels';
 		@import 'partials/atoms/links';
 		@import 'partials/atoms/link-button';
+		@import 'partials/atoms/portlet-msg';
 		@import 'partials/atoms/selects';
 		@import 'partials/atoms/tables';
+		@import 'partials/atoms/widget-mask';
 		@import 'partials/atoms/wrapper';
 
+		@import 'partials/molecules/portlet';
 		@import 'partials/molecules/accordion';
+		@import 'partials/molecules/blogs';
 		@import 'partials/molecules/breadcrumbs';
 		@import 'partials/molecules/dockbar';
 		@import 'partials/molecules/form';
 		@import 'partials/molecules/hidden-accessible';
+		@import 'partials/molecules/info-box';
   	@import 'partials/molecules/main-navigation';
 		@import 'partials/molecules/mobile-navigation';
+		@import 'partials/molecules/page-iterator';
+		@import 'partials/molecules/rp-button';
+		@import 'partials/molecules/rp-link';
+		@import 'partials/molecules/rp-link-button';
+		@import 'partials/molecules/rp-table';
+		@import 'partials/molecules/ui-confirm-dialog';
+		@import 'partials/molecules/ui-dialog';
+		@import 'partials/molecules/ui-panel';
+		@import 'partials/molecules/ui-widget-overlay';
+		@import 'partials/molecules/vgr-boxed-content';
+		@import 'partials/molecules/vgr-list-view';
+		@import 'partials/molecules/vgr-tabs';
 
+		@import 'partials/organisms/articles';
 		@import 'partials/organisms/content';
     @import 'partials/organisms/footer';
     @import 'partials/organisms/header';

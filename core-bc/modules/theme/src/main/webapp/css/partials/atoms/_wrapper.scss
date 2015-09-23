@@ -1,0 +1,12 @@
+#wrapper {
+    padding: 0.5em 5em 91px; /* 91px is height of [#footer .logo] plus padding of [.footer-inner] */
+
+    &.container-fluid {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    
+}
+
+.ie6 #wrapper {
+}

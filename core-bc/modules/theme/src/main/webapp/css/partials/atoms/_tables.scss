@@ -1,6 +1,7 @@
 .table {
-  font-size: 15px;
+  font-size: 100%;
   overflow: hidden;
+  @include border-radius(5px);
 
   td {
     background-color: #F9F9F9;

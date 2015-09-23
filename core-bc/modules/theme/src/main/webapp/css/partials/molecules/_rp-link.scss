@@ -1,0 +1,30 @@
+a.rp-link,
+a.rp-link:visited {
+  background: url(../images/icons/link-icon.png) 0 50% no-repeat;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+a.rp-link:hover {
+  text-decoration: none;
+}
+
+a.rp-link:hover span {
+  text-decoration: underline;
+}
+
+.rp-link-wrap {
+  margin: 10px 0;
+}
+
+.rp-link-wrap-last {
+  margin-bottom: 0;
+}
+
+.rp-link-wrap-left {
+  text-align: left;
+}
+
+.rp-link-wrap-right {
+  text-align: right;
+}

@@ -1,0 +1,37 @@
+.ui-dialog {
+  background: #fff;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+  width: 300px;
+
+  .ui-dialog-titlebar-close {
+    background: transparent url(../images/icons/icon-rp-close.png) 0 0 no-repeat;
+    cursor: pointer;
+    float: right;
+    height: 24px;
+    margin: 0px;
+    opacity: 0.7;
+    padding: 0px;
+    top: 0px;
+    width: 24px;
+  }
+
+  .ui-dialog-content {
+    background-color: #FFF;
+    text-align: center;
+  }
+
+  .ui-dialog-buttonpane {
+    background: #eef5fa;
+    background-image: none;
+    border-width: 1px 0 0 0;
+    border-top: 1px solid #c4ced5;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.3em 1em 0.5em 0.4em;
+    text-align: center;
+    width: 300px;
+  }
+
+}

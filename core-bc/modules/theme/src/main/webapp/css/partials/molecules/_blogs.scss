@@ -1,0 +1,241 @@
+.portlet-blogs {}
+
+.portlet-blogs .search-form {
+  display: block;
+  float: none;
+}
+
+.portlet-blogs .search-form .aui-search-bar {
+  display: none;
+}
+
+.portlet-blogs .taglib-header {
+  border: none;
+}
+
+.portlet-blogs .header-back-to {
+  display: none;
+}
+
+.portlet-blogs .blogs-entries-wrap {}
+
+.portlet-blogs .blogs-entries-wrap .entry {
+  background: #eef5fa;
+  border: 1px solid #c4ced5;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  /*behavior: url(/vgr-alfa-theme/htc/css3pie.htc);*/
+  margin: 7px 0;
+  padding: 10px;
+  position: relative;
+}
+
+.portlet-blogs .blogs-entries-wrap .entry-odd {
+  background: #fff;
+}
+
+.portlet-blogs .blogs-entries-wrap .separator {
+  display: none;
+}
+
+.portlet-blogs .blogs-entries-wrap .entry-title {
+  font-family: Ubuntu, Arial, Verdana, Helvetica, sans-serif;
+  margin: 5px 0;
+}
+
+.portlet-blogs .blogs-entries-wrap .entry-title a {
+  color: #2f72a9;
+  text-decoration: none;
+}
+
+.portlet-blogs .blogs-entries-wrap .entry-title a:hover {
+  color: #2f72a9;
+  text-decoration: underline;
+}
+
+.portlet-blogs .entry-title a {
+  color: #666;
+  font-family: Ubuntu, Arial, Verdana, Helvetica, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.portlet-blogs .entry-title a:hover {
+  text-decoration: underline;
+}
+
+.portlet-blogs .entry-date {
+  background: none;
+  color: #777;
+  padding-left: 0;
+}
+
+.portlet-blogs .entry .entry-body a {
+  /*display: none;*/
+}
+
+/* Clearfix style clearing */
+.portlet-blogs .entry-footer:after{clear:both;content:'.';display:block;visibility:hidden;height:0}
+.portlet-blogs .entry-footer{display:inline-block}
+* html .portlet-blogs .entry-footer{height:1%}
+.portlet-blogs .entry-footer{display:block}
+
+.portlet-blogs .entry-author {
+  background: none;
+  color: #777;
+  padding-left: 0;
+}
+
+.portlet-blogs .stats .comments a,
+.portlet-blogs .taglib-flags span a {
+  text-decoration: none;
+}
+
+.portlet-blogs .stats .comments a:hover,
+portlet-blogs .taglib-flags span a:hover {
+  text-decoration: underline;
+}
+
+.portlet-blogs .view-count {
+  display: none;
+}
+
+.portlet-blogs .taglib-social-bookmarks {
+  clear: both;
+  display: none;
+}
+
+.portlet-blogs .subscribe {
+  display: none;
+}
+
+/* View specific entry */
+.portlet-blogs h1.header-title,
+.portlet-blogs h3.header-title {
+  color: #444;
+  font-size: 1.8em;
+}
+
+/* Paging full */
+.portlet-blogs .taglib-page-iterator {
+  margin-bottom: 0;
+}
+
+.portlet-blogs .taglib-page-iterator .search-pages .page-selector,
+.portlet-blogs .taglib-page-iterator .search-pages .delta-selector {
+  display: none;
+}
+
+
+/* Paging simple */
+
+.portlet-blogs .entry-navigation {
+  background: transparent;
+  border: 0;
+  margin: 15px 0;
+}
+
+.portlet-blogs .entry-navigation a.previous,
+.portlet-blogs .entry-navigation a.next {
+  background-image: url(../images/paginator/pager-simple-sprite.png);
+  background-repeat: no-repeat;
+  border: none;
+  color: #255d8c;
+  display:block;
+  height: 25px;
+  line-height: 25px;
+  padding: 2px 30px;
+  position: relative;
+  text-decoration: none;
+  position: relative;
+}
+
+.portlet-blogs .entry-navigation a.previous:hover,
+.portlet-blogs .entry-navigation a.next:hover {
+  text-decoration: underline;
+}
+
+.portlet-blogs .entry-navigation a.previous {
+  background-position: 0 0;
+}
+
+.portlet-blogs .entry-navigation a.next {
+  background-position: 100% -50px;
+}
+
+.portlet-blogs .entry-navigation span.previous,
+.portlet-blogs .entry-navigation span.next {
+  display: none;
+}
+
+/* Commenting */
+
+.portlet-blogs #blogsCommentsPanelContainer {}
+
+.portlet-blogs #blogsCommentsPanelContainer .lfr-panel-titlebar {
+  background: none;
+}
+
+.portlet-blogs #blogsCommentsPanelContainer .lfr-panel-titlebar .lfr-panel-title {
+  color: #555;
+  font-family: Ubuntu, Arial, Verdana, Helvetica, sans-serif;
+  font-size: 1.3em;
+  font-weight: normal;
+}
+
+.portlet-blogs .add-comment {}
+
+.portlet-blogs .add-comment a.taglib-icon {
+  background: #2865ad url(../images/buttons/button-bg-normal.png) 0 0 repeat-x;
+  border: 1px solid #2f71a8;
+  border-color: #2f71a8 #052a73 #052a73 #2f71a8;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  /*behavior: url(/vgr-alfa-theme/htc/css3pie.htc);*/
+  color: #fff;
+  display: block;
+  float: left;
+  font-family: Ubuntu, Arial, Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 10px 15px;
+  position: relative;
+  text-shadow: none;
+
+}
+
+.portlet-blogs .add-comment a.taglib-icon img {
+  display: none;
+}
+
+
+/* Clearfix style clearing */
+.portlet-blogs .add-comment a.taglib-icon:after{clear:both;content:'.';display:block;visibility:hidden;height:0}
+.portlet-blogs .add-comment a.taglib-icon{display:inline-block}
+* html .portlet-blogs .add-comment a.taglib-icon{height:1%}
+.portlet-blogs .add-comment a.taglib-icon{display:block}
+
+
+.portlet-blogs .add-comment a.taglib-icon:hover {
+  background: #2865ad url(../images/buttons/button-bg-normal.png) 0 0 repeat-x;
+  border: 1px solid #c4d9f6;
+}
+
+.portlet-blogs .add-comment a.taglib-icon img {
+}
+
+.portlet-blogs .add-comment a.taglib-icon .taglib-text,
+.portlet-blogs .add-comment a.taglib-icon:hover .taglib-text {
+  text-decoration: none;
+}
+
+.portlet-blogs .trackback-wrap {
+  display: none;
+}
+
+.portlet-blogs .post-reply-form {
+  display: block;
+  margin: 5px 0;
+}

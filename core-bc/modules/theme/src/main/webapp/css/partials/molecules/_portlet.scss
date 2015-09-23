@@ -1,0 +1,132 @@
+.portlet {
+  background-color: transparent;
+  margin: 0 0 15px 0;
+  padding: 0;
+  text-align: left;
+}
+
+.portlet-borderless-container {
+    background-color: transparent;
+}
+
+  .portlet-borderless-container .portlet-options a.dropdown-toggle {
+      background: url(../images/portlet/options_borderless.png) 0px 2px;
+  }
+
+.portlet .portlet-topper {
+  background: #2f6ea1 url(../images/portlet/portlet-hd-bg-2.png) top left repeat-x;
+  -moz-border-radius-topleft: 6px;
+  -moz-border-radius-topright: 6px;
+  -webkit-border-radius: 6px 6px 0 0;
+  border-radius: 6px 6px 0 0;
+  position: relative;
+
+  border: 1px solid #245780;
+
+  -moz-box-shadow: 0px 1px 4px 0px #cccccc;
+  -webkit-box-shadow: 0px 1px 4px 0px #cccccc;
+  box-shadow: 0px 1px 4px 0px #cccccc;
+}
+
+.portlet .portlet-content {
+  background: #fff;
+  /*behavior: url(/vgr-alfa-theme/htc/css3pie.htc);*/
+
+  border: 1px solid #cad5de;
+
+  border-width: 0 1px 1px 1px;
+  -moz-border-radius-bottomleft: 6px;
+  -moz-border-radius-bottomright: 6px;
+  -webkit-border-radius: 0 0 6px 6px;
+  border-radius:  0 0 6px 6px;
+
+  -moz-box-shadow: 0px 1px 4px 0px #cccccc;
+  -webkit-box-shadow: 0px 1px 4px 0px #cccccc;
+  box-shadow: 0px 1px 4px 0px #cccccc;
+
+  padding: 12px;
+  position: relative;
+}
+
+.portlet-title {
+  color: #fff;
+  float: none;
+  font-family: Ubuntu, Arial, Verdana, Helvetica, sans-serif;
+  font-size: 1.3em;
+  font-weight: normal;
+  line-height: 1.0;
+  padding: 7px 10px;
+}
+
+.portlet-title .icon,
+.portlet-title img {
+  display: none;
+}
+
+.portlet-icons {
+  float: none;
+}
+
+.portlet-msg-info {
+    background-repeat: no-repeat;
+}
+
+.portlet-icons .portlet-close-icon {
+  border-width: 0;
+}
+
+.page-maximized .portlet-icons {
+  font-size: 11px;
+}
+
+a.portlet-icon-back,
+a.portlet-icon-back:hover {
+  background: none;
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+
+a.portlet-icon-back:hover {
+  text-decoration: underline;
+}
+
+.ie .portlet-title {
+  padding-bottom: 5px;
+}
+
+.ie6 .portlet-topper {
+  zoom: 1;
+}
+
+.lfr-actions.portlet-options .lfr-trigger strong a {
+  text-indent: -9999px;
+  text-decoration: none;
+}
+
+.portlet-minimize a,
+.portlet-minimize a:hover,
+.portlet-maximize a,
+.portlet-maximize a:hover,
+.portlet-close a,
+.portlet-close a:hover {
+  text-decoration: none;
+}
+
+.portlet-borderless-bar,
+.portlet-topper-toolbar{
+    z-index: 3;
+}
+
+.portlet-title-text {
+    overflow: visible;
+}
+
+
+.portlet-options {
+  &, &.open {
+    .dropdown-toggle {
+      @include box-shadow(none);
+    }
+  }
+}

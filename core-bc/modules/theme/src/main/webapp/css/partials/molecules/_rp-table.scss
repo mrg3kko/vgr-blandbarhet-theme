@@ -1,0 +1,167 @@
+.rp-table {
+  border: 1px solid #bbb;
+  border-collapse: collapse;
+  color: #444;
+  width: 100%;
+}
+
+.rp-table tr {
+  background: #fff;
+}
+
+.rp-table tr.odd {
+  background: #f5f7fb;
+}
+
+.rp-table tr.highlight-type-1 {
+  background: #ffff00;
+}
+
+.rp-table tr.highlight-type-2 {
+  background: #ff820b;
+}
+
+.rp-table tr.last {
+  border-width: 0;
+}
+
+.rp-table thead tr {
+  background: #e2e8f3 url(../images/bg/bg-grad-gray.png) repeat-x 0 0;
+  color: #444;
+  font-weight: bold;
+}
+
+.rp-table>tbody>tr>th,
+.rp-table>tbody>tr>td,
+.rp-table>thead>tr>td,
+.rp-table>thead>tr>th{
+      border: 1px solid #bbb;
+      border-width: 0 1px 1px 0;
+      padding: 5px 10px;
+      text-align: left;
+}
+
+/* Even column widths */
+.rp-table-even-2 th, .rp-table-even-2 td { width: 49.9%; }
+.rp-table-even-3 th, .rp-table-even-3 td { width: 33%; }
+.rp-table-even-4 th, .rp-table-even-4 td { width: 24.9%; }
+.rp-table-even-5 th, .rp-table-even-5 td { width: 19.9%; }
+.rp-table-even-6 th, .rp-table-even-6 td { width: 16.6%; }
+.rp-table-even-7 th, .rp-table-even-7 td { width: 14.2%; }
+.rp-table-even-8 th, .rp-table-even-8 td { width: 12.4%; }
+.rp-table-even-9 th, .rp-table-even-9 td { width: 11.1%; }
+
+.rp-table tr a {
+  color: #444;
+  text-decoration: underline;
+}
+
+.rp-table tr a.show-more {
+  background: transparent url(../images/arrows/05_down.png) no-repeat top center;
+  display: block;
+  font-size: 0;
+  height: 12px;
+  text-indent: -9999em;
+  width: 12px;
+}
+
+.rp-table tr a.show-more-expanded {
+  background-image: url(../images/arrows/05_up.png);
+}
+
+.rp-table tr a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.rp-table-row-extra {}
+
+.rp-table-row-extra .extra-wrap {
+}
+
+.rp-table-row-extra .extra-item-wrap {
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+  padding: 3px;
+}
+
+.rp-table-row-extra .extra-item-wrap-last {
+  border-bottom: 0;
+}
+
+.rp-table-row-extra .label {
+  float: left;
+  color: #444;
+  font-weight: bold;
+  width: 100px;
+}
+
+.rp-table-row-extra .content {
+  margin: 0 0 0 100px;
+  padding: 0 0 0 10px;
+}
+
+.rp-table tr.rp-table-row-note td {
+  padding: 15px;
+}
+
+.rp-table-filters {
+  margin-bottom: 10px;
+}
+
+.rp-box .rp-table-filters .field-wrapper,
+.rp-table-filters .field-wrapper {
+  clear: none;
+  float: left;
+  margin: 10px 20px 10px 0;
+  position: relative;
+  width: auto;
+}
+
+.rp-table-filters label {
+  margin: 0 0 3px 0;
+}
+
+.rp-table .right-align {
+    text-align: right;
+}
+
+/*------- RP table simple -------*/
+
+.rp-table-simple {
+  border: none;
+  color: #444;
+  width: 100%;
+}
+
+.rp-table-simple tr {
+  background: transparent url(../images/separators/rp-separator.png) bottom left repeat-x;
+  border: none;
+}
+
+.rp-table-simple thead tr {
+  background: #bcd3e6;
+  color: #2f6ea1;
+  font-weight: bold;
+}
+
+.rp-table-simple th {
+  border: none;
+  padding: 5px;
+      text-align: left;
+}
+
+.rp-table-simple td {
+  border: none;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.rp-table-simple td .cell-label {
+  font-weight: bold;
+}
+
+.rp-table-simple tr a {
+  color: #444;
+  text-decoration: underline;
+}
