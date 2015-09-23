@@ -22,19 +22,21 @@ body {
     @import 'partials/utilities/scaffolding';
     @import 'partials/utilities/portlet-overrides';
 
-		@import 'partials/atoms/alerts';
     @import 'partials/atoms/body';
+<<<<<<< HEAD
 		@import 'partials/atoms/buttons';
 		@import 'partials/atoms/html';
 		@import 'partials/atoms/iframe';
 		@import 'partials/atoms/modal';
+=======
+>>>>>>> origin/master
     @import 'partials/atoms/paragraphs';
     @import 'partials/atoms/headings';
     @import 'partials/atoms/images';
 		@import 'partials/atoms/inputs';
-		@import 'partials/atoms/labels';
 		@import 'partials/atoms/links';
 		@import 'partials/atoms/link-button';
+<<<<<<< HEAD
 		@import 'partials/atoms/portlet-msg';
 		@import 'partials/atoms/selects';
 		@import 'partials/atoms/tables';
@@ -49,6 +51,11 @@ body {
 		@import 'partials/molecules/form';
 		@import 'partials/molecules/hidden-accessible';
 		@import 'partials/molecules/info-box';
+=======
+		@import 'partials/atoms/wrapper';
+
+		@import 'partials/molecules/dockbar';
+>>>>>>> origin/master
   	@import 'partials/molecules/main-navigation';
 		@import 'partials/molecules/mobile-navigation';
 		@import 'partials/molecules/page-iterator';
