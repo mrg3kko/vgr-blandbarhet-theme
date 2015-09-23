@@ -1,0 +1,16 @@
+#banner h2, #banner h3, .site-breadcrumbs h1 {
+  clip: rect(0 0 0 0);
+  position: absolute;
+}
+
+.opens-new-window-accessible {
+  background: url(@theme_image_path@/common/open_window.png) no-repeat 0 50%;
+  display: inline-block;
+  font-size: 0;
+  height: 11px;
+  margin-left: 2px;
+  overflow: hidden;
+  text-indent: -9999px;
+  vertical-align: top;
+  width: 11px;
+}

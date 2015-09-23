@@ -56,16 +56,25 @@ body {
     @import 'partials/utilities/scaffolding';
     @import 'partials/utilities/portlet-overrides';
 
+		@import 'partials/atoms/alerts';
     @import 'partials/atoms/body';
+		@import 'partials/atoms/buttons';
     @import 'partials/atoms/paragraphs';
     @import 'partials/atoms/headings';
     @import 'partials/atoms/images';
 		@import 'partials/atoms/inputs';
+		@import 'partials/atoms/labels';
 		@import 'partials/atoms/links';
 		@import 'partials/atoms/link-button';
+		@import 'partials/atoms/selects';
+		@import 'partials/atoms/tables';
 		@import 'partials/atoms/wrapper';
 
+		@import 'partials/molecules/accordion';
+		@import 'partials/molecules/breadcrumbs';
 		@import 'partials/molecules/dockbar';
+		@import 'partials/molecules/form';
+		@import 'partials/molecules/hidden-accessible';
   	@import 'partials/molecules/main-navigation';
 		@import 'partials/molecules/mobile-navigation';
 
