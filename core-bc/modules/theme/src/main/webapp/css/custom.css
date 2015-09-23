@@ -75,4 +75,6 @@ body {
 
 }
 
+@import 'partials/_from-blandbarhet-portlets.scss';
+
 @import 'partials/shame';

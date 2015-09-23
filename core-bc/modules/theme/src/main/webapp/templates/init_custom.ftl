@@ -55,6 +55,7 @@
 
 <#assign theme_js_scripts = [
 	"fixes/ios-orientationchange-fix.js",
-	"modules/rp-theme-2.js",
+	"modules/vgr-navigation-button.js",
+	"modules/vgr-theme.js",
 	"theme-main.js"]
 />

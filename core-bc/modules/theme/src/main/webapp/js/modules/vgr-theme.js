@@ -29,7 +29,6 @@ AUI().add('vgr-theme',function(A) {
                         instance._initBreadcrumbs();
                         instance._initNavigationButton();
                         instance._initMainNavigation();
-                        instance._fixDockbar();
                     },
 
                     bindUI: function() {
@@ -69,9 +68,9 @@ AUI().add('vgr-theme',function(A) {
             		_initNavigationButton: function() {
             			var instance = this;
 
-            			var rpNavigationButton = new A.VgrNavigationButton();
+            			var vgrNavigationButton = new A.VgrNavigationButton();
 
-            			rpNavigationButton.render();
+            			vgrNavigationButton.render();
             		},
 
             		_onMainNavEnter: function(e) {
@@ -119,7 +118,7 @@ AUI().add('vgr-theme',function(A) {
         requires: [
             'aui-base',
             'event',
-            'rp-navigation-button'
+            'vgr-navigation-button'
 
       ]
     }
