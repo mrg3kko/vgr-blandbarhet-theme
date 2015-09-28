@@ -20,14 +20,6 @@
 
 <#------ Theme Settings ----------------------------------------------------------------------------------------------------------------->
 
-<#assign show_breadcrumbs = false />
-
-<#assign theme_setting_show_breadcrumbs = theme_display.getThemeSetting("show-breadcrumbs")! />
-
-<#if theme_setting_show_breadcrumbs = "true">
-	<#assign show_breadcrumbs = true />
-</#if>
-
 <#------ Dockbar ----------------------------------------------------------------------------------------------------------------->
 
 <#assign css_class = css_class + " dockbar-split" />
@@ -38,7 +30,6 @@
 <#------ Phrases ----------------------------------------------------------------------------------------------------------------->
 
 <#assign portal_name = "" />
-<#assign breadcrumbs_label = "Du &auml;r h&auml;r" />
 
 <#------ RP Admin ----------------------------------------------------------------------------------------------------------------->
 

@@ -6,7 +6,6 @@
       background: #2865ad url(../images/buttons/button-bg-normal.png) 0 0 repeat-x;
       border: 1px solid #2f71a8;
       border-color: #2f71a8 #052a73 #052a73 #2f71a8;
-      @include border-radius(3px);
       color: #fff;
       font-size: 13px;
       font-weight: normal;
@@ -17,5 +16,7 @@
       text-align: center;
       text-decoration: none;
       text-shadow: none;
+
+      @include border-radius(3px);
     }
 }

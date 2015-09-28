@@ -21,61 +21,61 @@
 // Hides the portlet titles
 // --------
 
-.aui {
-	.portlet-title {
-		display: none;
-	}
-
-	.portlet-topper {
-		.portlet-topper-toolbar {
-			display: none;
-		}
-	}
-
-}
-
-.aui {
-	.no-portlet-content {
-		margin-bottom: 0;
-
-		.portlet {
-			padding: 0;
-		}
-	}
-}
-
-
-.page-edit {
-
-	&.controls-visible {
-
-		.portlet-title {
-			display: block;
-		}
-
-		.portlet-topper {
-			.portlet-topper-toolbar {
-				display: block;
-			}
-		}
-
-	}
-
-	&.controls-hidden {
-
-		.portlet-title {
-			display: none;
-		}
-
-		.portlet-topper {
-			.portlet-topper-toolbar {
-				display: none;
-			}
-		}
-
-	}
-
-}
+// .aui {
+// 	.portlet-title {
+// 		display: none;
+// 	}
+//
+// 	.portlet-topper {
+// 		.portlet-topper-toolbar {
+// 			display: none;
+// 		}
+// 	}
+//
+// }
+//
+// .aui {
+// 	.no-portlet-content {
+// 		margin-bottom: 0;
+//
+// 		.portlet {
+// 			padding: 0;
+// 		}
+// 	}
+// }
+//
+//
+// .page-edit {
+//
+// 	&.controls-visible {
+//
+// 		.portlet-title {
+// 			display: block;
+// 		}
+//
+// 		.portlet-topper {
+// 			.portlet-topper-toolbar {
+// 				display: block;
+// 			}
+// 		}
+//
+// 	}
+//
+// 	&.controls-hidden {
+//
+// 		.portlet-title {
+// 			display: none;
+// 		}
+//
+// 		.portlet-topper {
+// 			.portlet-topper-toolbar {
+// 				display: none;
+// 			}
+// 		}
+//
+// 	}
+//
+// }
 
 .aui {
 	// Show border class can be set on portlet ("Grafiskt utseende -> Avancerade stilalternativ" to force borders to be shown.)
