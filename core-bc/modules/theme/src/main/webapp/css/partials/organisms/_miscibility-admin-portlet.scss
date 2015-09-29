@@ -1,0 +1,63 @@
+.miscibility-admin-portlet {
+
+  .add-assessment {
+    a,
+    a:visited {
+      color: inherit;
+      float: right;
+    }
+  }
+
+  .edit-fields {
+    max-width: 1200px;
+
+    .edit-field {
+      float: left;
+      margin-right: 40px;
+
+      textarea {
+        height: 150px;
+        width: 350px;
+      }
+    }
+  }
+
+  .combination-assessment {
+
+    th {
+      padding-top: 6px;
+    }
+
+    td {
+      border: 1px solid #aaaaaa;
+      padding: 3px;
+      position: relative;
+      text-align: left;
+
+      &.edit-column {
+        white-space: nowrap;
+      }
+    }
+
+    .substance-row {
+      font-weight: bold;
+    }
+
+  }
+
+  .worklist-wrap {
+
+    .combination-assessment {
+      background-color: #ffffff;
+    }
+
+    .worklist-name-header {
+      h3 {
+          display: inline;
+      }
+    }
+
+
+  }
+
+}

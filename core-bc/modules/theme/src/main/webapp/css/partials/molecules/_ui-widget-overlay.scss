@@ -11,3 +11,8 @@
    width: 100%;
    zoom: 1;
  }
+
+ .ui-widget-overlay {
+     background-image: none !important;
+     cursor: pointer;
+ }

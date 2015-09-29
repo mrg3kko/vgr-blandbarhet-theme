@@ -14,7 +14,11 @@
 @include establish-baseline; //Uses variables $base-font-size & $base-line-height
 
 html {
-    height: 100%;
+  height: 100%;
+
+  &.ie {
+    overflow: scroll;
+  }
 }
 
 
@@ -34,16 +38,17 @@ html {
 		@import 'partials/atoms/inputs';
 		@import 'partials/atoms/links';
 		@import 'partials/atoms/link-button';
+    @import 'partials/atoms/loading-indicator';
+    @import 'partials/atoms/mask';
 		@import 'partials/atoms/portlet-msg';
-		@import 'partials/atoms/selects';
 		@import 'partials/atoms/tables';
 		@import 'partials/atoms/widget-mask';
 		@import 'partials/atoms/wrapper';
 
 		@import 'partials/molecules/portlet';
+    @import 'partials/molecules/contact-dialog';
 		@import 'partials/molecules/dockbar';
   	@import 'partials/molecules/main-navigation';
-    @import 'partials/molecules/miscibility-portlet';
 		@import 'partials/molecules/ui-confirm-dialog';
 		@import 'partials/molecules/ui-dialog';
 		@import 'partials/molecules/ui-panel';
@@ -53,9 +58,10 @@ html {
 		@import 'partials/organisms/content';
     @import 'partials/organisms/footer';
     @import 'partials/organisms/header';
+    @import 'partials/organisms/miscibility-portlet';
+    @import 'partials/organisms/miscibility-admin-portlet';
+
 
 }
-
-@import 'partials/_from-blandbarhet-portlets.scss';
 
 @import 'partials/shame';
