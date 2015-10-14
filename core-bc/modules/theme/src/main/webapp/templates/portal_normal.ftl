@@ -63,10 +63,6 @@ ${theme.include(body_top_include)}
 
 </div>
 
-<footer id="footer" role="contentinfo">
-	<#include "${full_templates_path}/footer.ftl" />
-</footer>
-
 ${theme.include(body_bottom_include)}
 
 <#include "${full_templates_path}/theme_js_bottom.ftl" />

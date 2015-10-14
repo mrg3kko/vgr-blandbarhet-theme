@@ -56,7 +56,6 @@ html {
 
 		@import 'partials/organisms/articles';
 		@import 'partials/organisms/content';
-    @import 'partials/organisms/footer';
     @import 'partials/organisms/header';
     @import 'partials/organisms/miscibility-portlet';
     @import 'partials/organisms/miscibility-admin-portlet';

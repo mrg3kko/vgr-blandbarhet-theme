@@ -13,6 +13,14 @@ a:visited {
     display: inline-block;
   }
 
+  &.hover-link {
+    text-decoration: none;
+  }
+
+  &.header-link {
+    color: $white;
+  }
+
 }
 
 .dockbar a,

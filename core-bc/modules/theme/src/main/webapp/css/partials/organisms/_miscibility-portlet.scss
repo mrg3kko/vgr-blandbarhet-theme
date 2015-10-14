@@ -79,9 +79,6 @@
       width: auto;
     }
 
-    .label {
-        padding-left: 4px;
-    }
   }
 
   .substance-autocomplete {
@@ -166,7 +163,7 @@
         }
     }
 
-    ul {
+      ul {
         list-style: none;
         margin-bottom: 20px;
 
@@ -306,23 +303,19 @@
 
       .substance1 {
           display: inline-block;
-          text-align: right;
-          width: 45%;
       }
 
       .substance2 {
           box-sizing: border-box;
-          float: right;
-          padding-right: 40px;
-          right: 50px;
-          width: 46%;
       }
 
       .compatibility-summary {
-          padding: 3px 10px;
-          text-align: center;
-      }
+        padding: 3px 10px;
 
+        .compatibility-summary-text {
+          padding-left: 50px;
+        }
+      }
     }
 
     .compatibility-container {
@@ -533,6 +526,10 @@
   }
 
 
+}
+
+.limit-width.ui-tooltip {
+    max-width: 500px;
 }
 
 &.ie8 {
