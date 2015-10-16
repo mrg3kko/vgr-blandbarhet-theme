@@ -46,7 +46,6 @@
     background-color: #FFF;
     max-height: 80vh !important;
     text-align: left;
-    width: 90vw;
   }
 
   .ui-dialog-buttonpane {
@@ -76,5 +75,9 @@
       max-height: 580px;
       width: 610px;
     }
+  }
+
+  .ui-dialog-content {
+    width: 90vw;
   }
 }

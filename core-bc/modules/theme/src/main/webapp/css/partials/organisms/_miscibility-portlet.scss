@@ -386,6 +386,10 @@
             transform: rotate(90deg);
           }
 
+          &.ie8-fix {
+              display: none;
+          }
+
       }
 
       &:hover {
@@ -543,10 +547,6 @@
         }
 
         &.expanded {
-          display: none;
-        }
-
-        &.ie8-fix {
           display: none;
         }
 
