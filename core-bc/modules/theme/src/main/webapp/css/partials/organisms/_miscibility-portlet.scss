@@ -10,50 +10,6 @@
       margin-bottom: 16px;
   }
 
-  table {
-
-    thead {
-      th {
-        background-color: #0369A8;
-        border: 1px solid #aaaaaa;
-        color: #ffffff;
-        padding: 3px 20px 3px 0;
-        vertical-align: top;
-      }
-    }
-
-    tbody {
-      td {
-        padding: 3px 20px 3px 0;
-        vertical-align: top;
-
-        .cell-content {
-            cursor: pointer;
-            max-height: 98px;
-            overflow: hidden;
-            position: relative;
-
-            &:not(.expanded):after {
-              background: linear-gradient(to bottom,rgba(255,255,255,0),#fff);
-              height: 32px;
-              position: absolute;
-              bottom: 0;
-              width: 100%;
-              content: '';
-              left: 0;
-            }
-
-            &.expanded {
-              max-height: none;
-            }
-
-        }
-
-      }
-    }
-
-  }
-
   .label {
     background: none;
     color: #333;
@@ -408,10 +364,6 @@
         }
       }
 
-  }
-
-  .centered-column {
-      text-align: center;
   }
 
   // Combination Assessment

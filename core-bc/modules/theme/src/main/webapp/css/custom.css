@@ -47,8 +47,13 @@ html {
 
 		@import 'partials/molecules/portlet';
     @import 'partials/molecules/contact-dialog';
+    @import 'partials/molecules/control-bar';
 		@import 'partials/molecules/dockbar';
+    @import 'partials/molecules/fallout-menu';
   	@import 'partials/molecules/main-navigation';
+    @import 'partials/molecules/miscibility-table';
+    @import 'partials/molecules/paginator';
+    @import 'partials/molecules/paginator-bar';
 		@import 'partials/molecules/ui-confirm-dialog';
 		@import 'partials/molecules/ui-dialog';
 		@import 'partials/molecules/ui-panel';
@@ -59,6 +64,8 @@ html {
     @import 'partials/organisms/header';
     @import 'partials/organisms/miscibility-portlet';
     @import 'partials/organisms/miscibility-admin-portlet';
+
+    @import 'partials/utilities/dev-temp';
 
 
 }
