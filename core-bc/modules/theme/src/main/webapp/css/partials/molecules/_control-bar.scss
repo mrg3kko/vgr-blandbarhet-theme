@@ -3,15 +3,15 @@
 }
 
 .control-bar-container {
-  //position: relative;
 }
 
 .control-bar {
 
   background: #e9f4f9;
-  border: 1px solid #777;
+  border: 1px solid #aaa;
   border-width: 1px 0 1px 0;
-  padding: 10px;
+  margin: 10px 0;
+  padding: 8px;
 
   @include clearfix();
 
@@ -46,14 +46,34 @@
   .control-bar-item {
     .link-button {
       background: transparent;
-      border-color: #777;
+      border-color: #aaa;
       color: #444;
 
       &:hover {
         border-color: #000;
         color: #000;
       }
+    }
+    .ui-menubutton {
+      button {
+        background: transparent;
+        border-color: #aaa;
+        color: #444;
 
+        &.ui-state-hover,
+        &.ui-state-focus,
+        &.ui-state-active {
+          border-color: #000;
+          color: #000;
+        }
+
+      }
+    }
+    .ui-chkbox {
+      margin-top: 6px;
+    }
+    .label {
+      font-weight: normal;
     }
   }
 

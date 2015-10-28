@@ -1,0 +1,24 @@
+.ui-menu {
+  background: #fff;
+  border: 1px solid #aaa;
+  padding: 15px;
+  width: auto;
+  max-width: 400px;
+
+  .ui-menu-list {
+    .ui-menuitem {
+
+      margin: 5px 0;
+      padding: 5px 0;
+
+      &.ui-state-hover {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-weight: normal;
+        @include box-shadow(none);
+      }
+    }
+  }
+
+}

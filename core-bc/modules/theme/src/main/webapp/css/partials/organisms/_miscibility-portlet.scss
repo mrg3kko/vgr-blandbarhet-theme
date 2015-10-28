@@ -74,42 +74,11 @@
     border-radius: 4px;
   }
 
-  // Box section
-  .box-section {
-      background: #fff;
-      border: 1px solid #aaa;
-      border-radius: 3px;
-      float: left;
-      margin-bottom: 15px;
-      margin-top: 15px;
-      min-width: 200px;
 
-      .box-section-header {
-          background: #0369A8;
-          color: #ffffff;
-          padding: 7px 10px;
-          position: relative;
-      }
-
-      .box-section-body {
-          padding: 20px;
-      }
-
-  }
 
 
   // Seach Section
   .search-section {
-    box-sizing: border-box;
-    width: 40%;
-
-    margin-right: 5%;
-    width: 55%;
-
-    &.box-section {
-        width: 500px;
-    }
-
     a {
         text-decoration: none;
 
