@@ -40,6 +40,7 @@ html {
 		@import 'partials/atoms/link-button';
     @import 'partials/atoms/loading-indicator';
     @import 'partials/atoms/mask';
+    @import 'partials/atoms/menu-button';
 		@import 'partials/atoms/portlet-msg';
 		@import 'partials/atoms/tables';
 		@import 'partials/atoms/widget-mask';
