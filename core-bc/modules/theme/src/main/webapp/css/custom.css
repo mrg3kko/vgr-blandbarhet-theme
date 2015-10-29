@@ -46,6 +46,7 @@ html {
 		@import 'partials/atoms/widget-mask';
 		@import 'partials/atoms/wrapper';
 
+		@import 'partials/molecules/compatibility-box';
 		@import 'partials/molecules/portlet';
     @import 'partials/molecules/contact-dialog';
     @import 'partials/molecules/control-bar';
