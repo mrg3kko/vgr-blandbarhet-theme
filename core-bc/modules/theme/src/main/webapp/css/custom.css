@@ -67,6 +67,7 @@ html {
     @import 'partials/molecules/paginator';
     @import 'partials/molecules/paginator-bar';
     @import 'partials/molecules/substance-autocomplete';
+    @import 'partials/molecules/substance-chosen';
     @import 'partials/molecules/worklist-list';
 
 		@import 'partials/organisms/articles';

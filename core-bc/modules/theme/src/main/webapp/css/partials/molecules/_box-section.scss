@@ -40,8 +40,8 @@
 
     @include clearfix();
 
-    margin: 5px 0;
-    padding: 5px 0;
+    margin: 10px 0;
+    padding: 10px 0;
 
     .box-section-column {
       float: left;
@@ -54,6 +54,7 @@
 
       .label {
         font-weight: normal;
+        @include text-shadow(none);
       }
 
     }
