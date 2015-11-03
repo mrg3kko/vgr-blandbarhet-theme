@@ -30,18 +30,21 @@ html {
 
     @import 'partials/atoms/body';
 		@import 'partials/atoms/buttons';
+    @import 'partials/atoms/fieldset';
 		@import 'partials/atoms/iframe';
 		@import 'partials/atoms/modal';
     @import 'partials/atoms/paragraphs';
     @import 'partials/atoms/headings';
     @import 'partials/atoms/images';
 		@import 'partials/atoms/inputs';
+    @import 'partials/atoms/label';
 		@import 'partials/atoms/links';
 		@import 'partials/atoms/link-button';
     @import 'partials/atoms/loading-indicator';
     @import 'partials/atoms/mask';
     @import 'partials/atoms/menu-button';
 		@import 'partials/atoms/portlet-msg';
+    @import 'partials/atoms/section';
 		@import 'partials/atoms/tables';
 		@import 'partials/atoms/widget-mask';
 		@import 'partials/atoms/wrapper';
