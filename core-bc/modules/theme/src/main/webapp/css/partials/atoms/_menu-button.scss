@@ -1,0 +1,18 @@
+/* Styling related to Primefaces menuButton component */
+
+.ui-menu-list {
+
+  .ui-menuitem {
+
+    a.ui-commandlink {
+      display: block;
+      text-decoration: none;
+      font-weight: inherit;
+      color: inherit;
+    }
+  }
+}
+
+.ui-selectcheckboxmenu-panel .ui-selectcheckboxmenu-items-wrapper {
+  height: auto !important;
+}
