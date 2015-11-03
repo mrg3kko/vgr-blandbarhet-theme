@@ -37,20 +37,6 @@
 
   }
 
-  .substance-autocomplete {
-      width: 70%;
-
-      input {
-          margin-bottom: 0;
-          width: 95%;
-      }
-  }
-
-  .clear-button {
-      height: 20px;
-      margin-left: 1.2em;
-  }
-
   .small-heading {
       margin-bottom: 4px;
   }
@@ -72,17 +58,6 @@
     font-size: 1.1em;
     background: white;
     border-radius: 4px;
-  }
-
-
-      .box-section-body {
-          padding: 20px 20px 0 20px;
-      }
-
-      .box-section-body:last-child {
-          padding-bottom: 20px;
-      }
-
   }
 
 
@@ -138,11 +113,6 @@
         left: 37px;
         position: relative;
         top: 9px;
-    }
-    .search-add-clear-row {
-        /*height: 34px;*/
-        /*padding-right: 160px;*/
-        position: relative;
     }
 
     ul.tabs {

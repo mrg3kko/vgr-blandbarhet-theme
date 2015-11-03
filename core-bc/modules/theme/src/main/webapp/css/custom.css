@@ -46,6 +46,15 @@ html {
 		@import 'partials/atoms/widget-mask';
 		@import 'partials/atoms/wrapper';
 
+    @import 'partials/molecules/ui-autocomplete';
+    @import 'partials/molecules/ui-autocomplete-panel';
+		@import 'partials/molecules/ui-confirm-dialog';
+		@import 'partials/molecules/ui-dialog';
+    @import 'partials/molecules/ui-menu';
+    @import 'partials/molecules/ui-menu-button';
+		@import 'partials/molecules/ui-panel';
+    @import 'partials/molecules/ui-selectcheckboxmenu';
+		@import 'partials/molecules/ui-widget-overlay';
 		@import 'partials/molecules/compatibility-box';
 		@import 'partials/molecules/portlet';
     @import 'partials/molecules/box-section';
@@ -57,13 +66,7 @@ html {
     @import 'partials/molecules/miscibility-table';
     @import 'partials/molecules/paginator';
     @import 'partials/molecules/paginator-bar';
-		@import 'partials/molecules/ui-confirm-dialog';
-		@import 'partials/molecules/ui-dialog';
-    @import 'partials/molecules/ui-menu';
-    @import 'partials/molecules/ui-menu-button';
-		@import 'partials/molecules/ui-panel';
-    @import 'partials/molecules/ui-selectcheckboxmenu';  
-		@import 'partials/molecules/ui-widget-overlay';
+    @import 'partials/molecules/substance-autocomplete';
     @import 'partials/molecules/worklist-list';
 
 		@import 'partials/organisms/articles';

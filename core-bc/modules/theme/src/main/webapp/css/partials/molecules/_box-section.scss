@@ -36,6 +36,34 @@
     @include border-radius(0 0 3px 3px);
   }
 
+  .box-section-row {
+
+    @include clearfix();
+
+    margin: 5px 0;
+    padding: 5px 0;
+
+    .box-section-column {
+      float: left;
+      position: relative;
+    }
+
+    .box-section-column-label {
+      margin-right: 2%;
+      width: 22%;
+
+      .label {
+        font-weight: normal;
+      }
+
+    }
+
+    .box-section-column-content {
+      width: 74%;
+    }
+
+  }
+
   &.box-section-search {}
 
   &.box-section-worklist {
