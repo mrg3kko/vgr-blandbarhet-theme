@@ -10,6 +10,7 @@ table.miscibility-table {
         border: 1px solid #fff;
         border-width: 0 1px 0 1px;
         color: #fff;
+        font-weight: bold;
         padding: 8px;
         text-align: center;
 
@@ -23,6 +24,7 @@ table.miscibility-table {
 
         a {
           color: #fff;
+          font-weight: bold;
           text-decoration: none;
 
           &:hover {
@@ -114,4 +116,3 @@ table.highest-concentrations {
     padding: 3px 6px;
   }
 }
-

@@ -58,6 +58,7 @@ html {
 		@import 'partials/molecules/ui-panel';
     @import 'partials/molecules/ui-selectcheckboxmenu';
 		@import 'partials/molecules/ui-widget-overlay';
+    @import 'partials/molecules/button-bar';
 		@import 'partials/molecules/compatibility-box';
 		@import 'partials/molecules/portlet';
     @import 'partials/molecules/box-section';
