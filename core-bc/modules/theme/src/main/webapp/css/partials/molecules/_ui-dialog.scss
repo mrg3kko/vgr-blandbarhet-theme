@@ -1,43 +1,45 @@
 .ui-dialog {
   background: #fff;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
-  font-size: 12px;
-  font-size: 1em !important;
+  font-size: 1em;
   width: 300px;
 
+  @include border-radius(4px);
+
   .ui-dialog-titlebar {
-      background: #03944E;
-      color: #ffffff;
+      background: #006fa7;
+      color: #fff;
       text-shadow: none;
       font-weight: normal;
       font-size: 1.1em;
+      @include text-shadow(none);
   }
 
   .ui-dialog-titlebar-close {
-    background: transparent url(../images/icons/close-icon.png) 0 0 no-repeat !important;
-    cursor: pointer;
-    float: right;
-    height: 24px;
-    margin: 0px;
-    opacity: 0.7;
-    padding: 0px;
-    top: 0px;
-    width: 24px;
-    -webkit-transition: all 150ms ease;
-    transition: all 150ms ease;
 
-    &.ui-state-hover {
-        box-shadow: none !important;
-        border: none !important;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: normal;
+    opacity: 0.7;
+    padding: 5px;
+    text-decoration: none;
+    @include box-shadow(none);
+    @include transition(all 0.15s ease-in-out);
+
+    &:before {
+      content: "\f00d";
+      font-family: "fontawesome-alloy";
+      speak: none;
     }
 
-    &:hover {
-      opacity: 1 !important;
+    &.ui-state-hover {
+      background: none;
+      border: none;
+      opacity: 1.0;
+      @include box-shadow(none);
     }
 
     .ui-icon-closethick {
-        background-image: none !important;
+        display: none;
     }
 
   }
@@ -45,6 +47,7 @@
   .ui-dialog-content {
     background-color: #FFF;
     max-height: 80vh !important;
+    padding: 15px;
     text-align: left;
   }
 
@@ -58,6 +61,12 @@
     padding: 0.3em 1em 0.5em 0.4em;
     text-align: center;
     width: 300px;
+  }
+
+  .dialog-button-bar {
+    background: none;
+    margin: 10px auto 0 auto;
+    text-align: center;
   }
 
 }

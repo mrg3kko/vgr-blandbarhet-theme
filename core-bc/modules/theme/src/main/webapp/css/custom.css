@@ -69,6 +69,7 @@ html {
     @import 'partials/molecules/substance-autocomplete';
     @import 'partials/molecules/substance-chosen';
     @import 'partials/molecules/worklist-list';
+    @import 'partials/molecules/worklist-dialog';
 
 		@import 'partials/organisms/articles';
 		@import 'partials/organisms/content';

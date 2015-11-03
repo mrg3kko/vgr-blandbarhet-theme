@@ -13,60 +13,33 @@ $bp-large : 1199px;
 // -------------------------
 // http://chir.ag/projects/name-that-color/
 
-$vgrintra-yellow: #f1a81a;
-$vgrintra-blue: #3069a1;
-//#065293
-//#005195
-//#3069a1
-$vgrintra-red: #9a002c;
-$vgrintra-green: #55772f;
+$blandbarhet-blue: #006fa7;
 
-$vgrintra-buddhagold: #d79500;
+$blandbarhet-wildsand: #f6f6f6;
+$blandbarhet-gallery: #f0f0f0;
+$blandbarhet-mercury: #e6e6e6;
+$blandbarhet-alto: #dfdfdf;
+$blandbarhet-silver: #ccc;
+$blandbarhet-silverchalice: #aaa;
+$blandbarhet-graydusty:	#999;
+$blandbarhet-boulder:		#777;
+$blandbarhet-graydove:		#666;
+$blandbarhet-emperor:		#555;
+$blandbarhet-tundora:		#444;
+$blandbarhet-mineshaftlight:	#333;
+$blandbarhet-mineshaft:	#222;
+$blandbarhet-graycod:		#111;
 
-$vgrintra-wildsand: #f6f6f6;
-$vgrintra-gallery: #f0f0f0;
-$vgrintra-mercury: #e6e6e6;
-$vgrintra-alto: #dfdfdf;
-$vgrintra-silver: #ccc;
-$vgrintra-silverchalice: #aaa;
-$vgrintra-graydusty:	#999;
-$vgrintra-boulder:		#777;
-$vgrintra-graydove:		#666;
-$vgrintra-emperor:		#555;
-$vgrintra-tundora:		#444;
-$vgrintra-mineshaftlight:	#333;
-$vgrintra-mineshaft:	#222;
-$vgrintra-graycod:		#111;
-
-$vgrintra-black: 		#000;
-$vgrintra-white: #fff;
-
-$vgrintra-yellowlight: #fde8c8;
-$vgrintra-appricot: #fad396;
-
-$vgrintra-graydark:		#4a4a4a;
-
-$vgrintra-graylight:		#ececec;
-
+$blandbarhet-black: 		#000;
+$blandbarhet-white: #fff;
 
 // Colors
 // -------------------------
-$bg:					$vgrintra-white;
+$bg:					$blandbarhet-white;
 $text-color:	$textColor; //From _aui_variables
 
-$content-bg:  $vgrintra-yellowlight;
-
-
-$heading-color:			$vgrintra-mineshaft;
-$heading-h1-color:		$vgrintra-mineshaft;
-$link-color:			$linkColor; //From _aui_variables
-$link-hover-color:		$linkColorHover; //From _aui_variables
-
-$link-color: $vgrintra-blue;
-$link-color-hover: $vgrintra-blue;
-
-$menu-bar-bg:				$vgrintra-white;
-$menu-bar-color:			$vgrintra-tundora;
+$link-color: $blandbarhet-blue;
+$link-color-hover: $blandbarhet-blue;
 
 // Fonts
 // -------------------------
@@ -75,15 +48,6 @@ $base-line-height:	$baseLineHeight; //From _aui_variables
 $base-font-weight:	400;
 
 // Selector, Size, Font Weight, Letter Spacing
-$font-list: (
-  h1	30px 	400	normal	$heading-h1-color,
-  h2	24px	400	normal	$heading-color,
-  h3	20px  	400	normal	$heading-color,
-  h4	18px	400	normal	$heading-color,
-  h5	18px  	400	normal	$heading-color,
-  h6	18px 	400	normal	$heading-color
-);
-
 $font-weight-normal: 		normal;
 $font-weight-bold:			bold;
 $font-weight-light: 		200;
@@ -109,7 +73,7 @@ $navbar-height: 45px;
 
 // Shadow
 // --------
-$default-box-shadow-color: $vgrintra-graydusty; // The default color for box shadows
+$default-box-shadow-color: $blandbarhet-graydusty; // The default color for box shadows
 $default-box-shadow-h-offset: 0px; // The default horizontal offset. Positive is to the right.
 $default-box-shadow-v-offset: 0px; // The default vertical offset. Positive is down.
 $default-box-shadow-blur: 5px; // The default blur length.

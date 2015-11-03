@@ -5,19 +5,19 @@ h1, h2, h3 {
 }
 
 h1 {
-  color: #005095;
-  font-size: 2.5em;
+  color: $blandbarhet-blue;
+  font-size: 2.2em;
   margin: 0.4em 0 0.4em 0;
 }
 
 h2 {
-  color: #444;
+  color: $blandbarhet-tundora;
   font-size: 1.8em;
 }
 
 h3 {
-    font-size: 1.4em;
-    color: #666;
+  color: $blandbarhet-graydove;
+  font-size: 1.4em;
 }
 
 h4 {

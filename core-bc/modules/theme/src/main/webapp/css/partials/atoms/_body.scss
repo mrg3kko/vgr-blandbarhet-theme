@@ -2,8 +2,10 @@ body {
   background: #dfebf5 url(../images/bg/bg-main.png) 0 0 repeat;
   color: #333;
   font-family: Arial, Verdana, Helvetica, sans-serif;
-  font-size: 12px;
+  //font-size: 12px;
+  font-size: $base-font-size;
   font-weight: $base-font-weight;
+  line-height: $base-line-height;
   margin: 0;
   min-height: 100%;
   padding: 0;

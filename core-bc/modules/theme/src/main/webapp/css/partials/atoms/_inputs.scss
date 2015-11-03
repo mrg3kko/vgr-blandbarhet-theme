@@ -1,3 +1,7 @@
+input {
+  font-size: 1.0em;
+}
+
 input[type="color"],
 input[type="date"],
 input[type="datetime"],
@@ -29,9 +33,19 @@ textarea,
   }
 }
 
-input[type="submit"] {
+input[type="submit"],
+input[type="button"] {
+  background: $blandbarhet-blue;
+  border: 1px solid $blandbarhet-blue;
+  color: $blandbarhet-white;
   margin-bottom: 11px;
   margin-top: 6px;
+
+  @include border-radius(4px);
+
+  &:hover {
+    
+  }
 }
 
 input[type="text"].search-query {
