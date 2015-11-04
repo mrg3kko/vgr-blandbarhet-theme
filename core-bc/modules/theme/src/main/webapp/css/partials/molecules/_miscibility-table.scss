@@ -75,6 +75,7 @@ table.miscibility-table {
         &:last-child {
           border-right: 0;
         }
+
       }
 
 
@@ -95,12 +96,25 @@ table.miscibility-table {
 
         }
       }
+
+      .table-cell-row {
+        margin-bottom: 4px;
+      }
+
     }
   }
 
   .centered-column {
     text-align: center;
   }
+
+  .add-assessment {
+    a,
+    a:visited {
+      color: inherit;
+      float: right;
+    }
+  }  
 
 }
 
