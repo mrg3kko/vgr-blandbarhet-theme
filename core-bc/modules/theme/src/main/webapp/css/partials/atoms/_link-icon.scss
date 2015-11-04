@@ -1,0 +1,21 @@
+// Example:
+//
+// <a href="" class="link-icon">
+//   <i class="icon-add"></i><i class="link-icon-text">Add</i>
+// </a>
+
+.link-icon {
+  color: $blandbarhet-mineshaftlight;
+  display: inline-block;
+  text-decoration: none;
+
+  &:hover {
+    color: $blandbarhet-black;
+    text-decoration: none;
+  }
+
+  .link-icon-text {
+    font-size: 0;
+    text-indent: -9999em;
+  }
+}

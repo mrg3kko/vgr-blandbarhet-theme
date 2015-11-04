@@ -21,7 +21,19 @@ a:visited {
     color: $white;
   }
 
+  &.plain {
+    color: $blandbarhet-mineshaftlight;
+    text-decoration: underline;
+
+    &:hover {
+      color: $blandbarhet-black;
+      text-decoration: none;
+    }
+  }
+
 }
+
+
 
 .dockbar a,
 .dockbar a:visited,

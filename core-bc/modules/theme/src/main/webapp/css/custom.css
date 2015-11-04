@@ -40,6 +40,8 @@ html {
     @import 'partials/atoms/label';
 		@import 'partials/atoms/links';
 		@import 'partials/atoms/link-button';
+    @import 'partials/atoms/link-icon';
+    @import 'partials/atoms/link-list';
     @import 'partials/atoms/loading-indicator';
     @import 'partials/atoms/mask';
     @import 'partials/atoms/menu-button';
@@ -74,6 +76,7 @@ html {
     @import 'partials/molecules/substance-chosen';
     @import 'partials/molecules/worklist-list';
     @import 'partials/molecules/worklist-dialog';
+    @import 'partials/molecules/worklist-name-header';
 
 		@import 'partials/organisms/articles';
 		@import 'partials/organisms/content';
