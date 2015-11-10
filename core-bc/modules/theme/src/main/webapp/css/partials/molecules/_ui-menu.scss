@@ -18,6 +18,11 @@
         font-weight: normal;
         @include box-shadow(none);
       }
+
+      a {
+        text-decoration: none;
+      }
+
     }
   }
 
