@@ -34,6 +34,7 @@
     &.ui-state-hover {
       background: none;
       border: none;
+      color: #fff;
       opacity: 1.0;
       @include box-shadow(none);
     }

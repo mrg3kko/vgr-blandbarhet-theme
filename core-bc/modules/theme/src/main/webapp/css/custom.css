@@ -30,6 +30,7 @@ html {
 
     @import 'partials/atoms/body';
 		@import 'partials/atoms/buttons';
+    @import 'partials/atoms/icon-exclamation';
     @import 'partials/atoms/fieldset';
     @import 'partials/atoms/footnote-text';
 		@import 'partials/atoms/iframe';

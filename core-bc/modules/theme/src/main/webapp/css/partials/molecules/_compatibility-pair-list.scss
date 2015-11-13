@@ -57,9 +57,12 @@
 
   }
 
+  .ui-datascroller-content {
+    background: transparent;
+  }
+
   .ui-widget-content {
-      border: none;
-      background: transparent;
+    border: none;
   }
 
   .infusion-basis {
