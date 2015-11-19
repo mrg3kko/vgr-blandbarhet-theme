@@ -29,14 +29,18 @@
         box-sizing: border-box;
     }
 
-    .compatibility-summary {
-      padding: 3px 10px;
-
-      .compatibility-summary-text {
-        padding-left: 50px;
-      }
-    }
   }
+
+    .compatibility-summary {
+
+        .compatibility-summary-text {
+            padding-left: 50px;
+
+            p {
+                margin-top: 8px;
+            }
+        }
+    }
 
   .compatibility-container {
       width: 100%;
