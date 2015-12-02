@@ -113,7 +113,9 @@
 
   // Display drop down navigation on hover
   ul.nav-list > li:hover > .nav-list-sub-wrap {
-    display: block;
+    // Drop down navigation is turned off by request 2015-12-02
+    //display: block;
+    display: none;
   }
 
 

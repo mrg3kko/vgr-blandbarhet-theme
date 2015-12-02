@@ -80,6 +80,7 @@ html {
     @import 'partials/molecules/field-item';
     @import 'partials/molecules/header-toggle-trigger';
     @import 'partials/molecules/information-code';
+    @import 'partials/molecules/journal-article';
   	@import 'partials/molecules/main-navigation';
     @import 'partials/molecules/minimize-expand-all';
     @import 'partials/molecules/miscibility-table';
