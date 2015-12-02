@@ -86,6 +86,7 @@ html {
     @import 'partials/molecules/paginator';
     @import 'partials/molecules/paginator-bar';
     @import 'partials/molecules/ph';
+    @import 'partials/molecules/portlet-navigation';
     @import 'partials/molecules/substance-autocomplete';
     @import 'partials/molecules/substance-chosen';
     @import 'partials/molecules/toggle-choose-projects';
